@@ -1,3 +1,7 @@
+/*
+#include<stdio.h>
+#include <string.h>
+    */
 int value(char ch) {
     switch (ch) {
         case 'I': return 1;
@@ -26,3 +30,13 @@ int romanToInt(char *s) {
     }
     return total;
 }
+/*
+int main(){
+    char *s;
+    printf("Enter Roman Value: ");
+    scanf("%s",s);
+
+    printf("Integer value:%d",romanToInt(s));
+    
+}
+*/
